@@ -1,0 +1,41 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": false
+    }
+  ],
+  "crud": [
+    {
+      "id": 1,
+      "method": "GET",
+      "body": null,
+      "headers": null
+    },
+    {
+      "id": 2,
+      "method": "POST",
+      "body": "josn.stringify(content)",
+      "headers": { "content-type": "application/json" }
+    },
+    {
+      "id": 1,
+      "method": "PATCH",
+      "body": "josn.stringify(content)",
+      "headers": { "content-type": "application/json" }
+    },
+    {
+      "id": 1,
+      "method": "PUT",
+      "body": "josn.stringify(content)",
+      "headers": { "content-type": "application/json" }
+    },
+    {
+      "id": 1,
+      "method": "DELETE",
+      "body": null,
+      "headers": null
+    }
+  ]
+}
